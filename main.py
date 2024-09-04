@@ -34,3 +34,9 @@ while i < 6:
   print(i)
   i += 1
 
+# array
+fruits = ['orange', 'apple', 'mango']
+print(fruits)
+print(type(fruits))
+
+
