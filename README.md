@@ -19,8 +19,8 @@ It includes beginner-friendly examples, exercises, and explanations of key Pytho
 
 <h4>Source Documents</h4>
 
-<a href="https://www.w3schools.com/python/python_user_input.asp">Get User Input</a>
-<a href="https://www.w3schools.com/python/python_classes.asp">Create Classes and Objects</a>
+<a href="https://www.w3schools.com/python/python_user_input.asp">Get User Input</a></br>
+<a href="https://www.w3schools.com/python/python_classes.asp">Create Classes and Objects</a></br>
 <a href="https://www.w3schools.com/python/python_functions.asp">Functions</a>
 
 
