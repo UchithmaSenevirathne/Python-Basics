@@ -12,7 +12,8 @@ db = mysql.connector.connect(
 cursor = db.cursor()
 
 #get input values
-
+userName = input("Enter your Email : ")
+password = input("Enter your Password : ")
 
 #insert user data into database
 try:
