@@ -25,7 +25,7 @@ It includes beginner-friendly examples, exercises, and explanations of key Pytho
 
 
 <p>save database</p>
-<a href="https://www.w3schools.com/python/python_mysql_getstarted.asp">get start</a>
+<a href="https://www.w3schools.com/python/python_mysql_getstarted.asp">create connection</a>
 </br>
 <a href="https://www.w3schools.com/python/python_mysql_create_db.asp">create database</a>
 </br>
