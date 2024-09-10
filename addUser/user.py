@@ -22,3 +22,5 @@ try:
     query = "INSERT INTO users (userName, password) VALUES (%s, %s)"
     cursor.execute(query, (userName, password))
     db.commit()
+    print("Content-type:text/html\r\n\r\n")
+    print("<html><body><h2>User added successfully!</h2></body></html>")
