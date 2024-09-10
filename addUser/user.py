@@ -12,3 +12,7 @@ db = mysql.connector.connect(
 
 #create a cursor object for interacting with a MySQL database through the mysql.connector module.
 cursor = db.cursor()
+
+#get input values
+userName = form.getvalue("userName")
+password = form.getvalue("password")
