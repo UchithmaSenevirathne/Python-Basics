@@ -1,7 +1,4 @@
 import mysql.connector
-import cgi
-
-form = cgi.FieldStorage() #get form data
 
 db = mysql.connector.connect(
     host="localhost",
