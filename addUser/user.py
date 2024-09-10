@@ -27,3 +27,6 @@ try:
 except mysql.connector.Error as err:
     print("Content-type:text/html\r\n\r\n")
     print(f"<html><body><h2>Error: {err}</h2></body></html>")
+finally:
+    cursor.close()
+    db.close()
