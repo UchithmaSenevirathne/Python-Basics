@@ -20,11 +20,10 @@ try:
     query = "INSERT INTO users (userName, password) VALUES (%s, %s)"
     cursor.execute(query, (userName, password))
     db.commit()
-    print("Content-type:text/html\r\n\r\n")
-    print("<html><body><h2>User added successfully!</h2></body></html>")
+    print("User Added Successfully !")
 except mysql.connector.Error as err:
-    print("Content-type:text/html\r\n\r\n")
-    print(f"<html><body><h2>Error: {err}</h2></body></html>")
+    print(f"Error: {err}")
 finally:
+    # close connection and cursor
     cursor.close()
     db.close()
