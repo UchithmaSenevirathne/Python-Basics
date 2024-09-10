@@ -24,3 +24,6 @@ try:
     db.commit()
     print("Content-type:text/html\r\n\r\n")
     print("<html><body><h2>User added successfully!</h2></body></html>")
+except mysql.connector.Error as err:
+    print("Content-type:text/html\r\n\r\n")
+    print(f"<html><body><h2>Error: {err}</h2></body></html>")
