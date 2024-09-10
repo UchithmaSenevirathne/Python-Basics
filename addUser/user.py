@@ -1,5 +1,6 @@
 import mysql.connector
 
+#connect to the MYSQL database
 db = mysql.connector.connect(
     host="localhost",
     user="root",
@@ -11,8 +12,7 @@ db = mysql.connector.connect(
 cursor = db.cursor()
 
 #get input values
-userName = form.getvalue("userName")
-password = form.getvalue("password")
+
 
 #insert user data into database
 try:
