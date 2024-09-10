@@ -9,3 +9,6 @@ db = mysql.connector.connect(
     password="1234",
     database="python_bsc"
 )
+
+#create a cursor object for interacting with a MySQL database through the mysql.connector module.
+cursor = db.cursor()
