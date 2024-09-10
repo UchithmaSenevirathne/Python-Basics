@@ -16,3 +16,9 @@ cursor = db.cursor()
 #get input values
 userName = form.getvalue("userName")
 password = form.getvalue("password")
+
+#insert user data into database
+try:
+    query = "INSERT INTO users (userName, password) VALUES (%s, %s)"
+    cursor.execute(query, (userName, password))
+    db.commit()
