@@ -15,7 +15,7 @@ x = "Uchi"
 y = 22
 print('age : ', y)
 
-# give data type
+# casting
 print('===============data type================')
 
 x = str(3)
@@ -62,3 +62,9 @@ def multiplyNum(num1, num2):
     return (num1 * num2) + 1
 
 print(multiplyNum(10, 20))
+
+#Lists
+print('===============Lists================')
+List = ["apple", "cherry", "mango"]
+print(List)
+print(len(List)) #list length
